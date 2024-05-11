@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的电脑文件列表</title>
+</head>
+<style>
+    .square {
+        list-style-type: square;
+    }
+
+    .circle {
+        list-style-type: circle;
+    }
+
+    .empty_circle {}
+</style>
+
+<body>
+    <h1>我的电脑文件列表</h1>
+    <ul>
+        <li class="empty_circle">我的电脑</li>
+        <ul>
+            <li class="circle">本地磁盘(C:)</li>
+            <ul>
+                <li class="square">我的文档</li>
+                <li class="square">我的收藏</li>
+            </ul>
+            <li class="circle">本地磁盘(D:)</li>
+            <ul>
+                <li class="square">我的游戏</li>
+                <li class="square">我的资料</li>
+                <li class="square">我的电影</li>
+            </ul>
+        </ul>
+    </ul>
+</body>

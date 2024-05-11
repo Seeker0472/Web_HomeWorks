@@ -1,0 +1,10 @@
+body {
+    background: no-repeat url("./PIC.JPG") calc(50vw - 190px) 70px;
+    background-color: #a8d8ec;
+}
+
+h2 {
+    color: blue;
+    font-size: 32px;
+    text-align: center;
+}

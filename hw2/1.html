@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">用户注册</title>
+</head>
+
+<body>
+    <form>
+        <label for="user_name">用户名</label>
+        <input id="user_name" type="text">*<br>
+        <label for="password">密码</label>
+        <input id="password" type="password">*<br>
+        <label for="confirm_password">确认密码</label>
+        <input id="confirm_password" type="password">*<br>
+        <label for="sex">性别: </label>
+        <input type="radio" name="sex" id="male" value="1">
+        <label for="male">男</label>
+        <input type="radio" name="sex" id="female" value="2">
+        <label for="female">女</label><br>
+        <label for="email">邮箱</label>
+        <input id="email" type="email">*<br>
+        <label for="identity">身份</label>
+        <select id="identity">
+            <option value="1">学生</option>
+            <option value="2">教师</option>
+            <option value="3">其他</option>
+        </select><br>
+        <label for="introduction">自我介绍</label>
+        <textarea id="introduction"></textarea><br>
+    </form>
+
+</body>

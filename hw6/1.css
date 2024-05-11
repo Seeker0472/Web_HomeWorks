@@ -1,0 +1,32 @@
+table {
+    width: 100vw;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #a7c93f;
+    text-align: left;
+}
+
+thead tr {
+    background-color: #a7c941;
+}
+
+tbody tr {
+    font-weight: lighter;
+}
+
+tbody tr:nth-child(odd) {
+    /*隔行变颜色*/
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(even) {
+    /*隔行变颜色*/
+    background-color: #ebf0d9;
+
+
+
+}
