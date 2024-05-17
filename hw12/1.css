@@ -1,0 +1,95 @@
+.header {
+    width: 620px;
+    height: 100px;
+    background-image: url("./images/header_bg.gif");
+}
+
+.header>h1 {
+    background: url("./images/logo.GIF") no-repeat;
+    line-height: 100px;
+    text-indent: -99990999px;
+    margin: 0;
+}
+
+.header .menu li {
+    float: right;
+    margin: 5px;
+    list-style: none;
+    /*水平排列*/
+
+}
+
+.container {
+    background-color: #060;
+}
+
+.header .menu {
+    margin-top: -32px;
+}
+
+.header .menu li a {
+    text-decoration: none;
+}
+
+.sidebar1 {
+    float: left;
+    width: 140px;
+    /* background-color: #060; */
+}
+
+.sidebar1 ul {
+    padding: 0;
+    margin: 10px 19px;
+}
+
+.sidebar1 ul li {
+    list-style: none;
+    text-align: center;
+    margin: 1px;
+    width: 96px;
+    height: 30px;
+    background-color: #9c0;
+    border-left: #f90 5px solid;
+
+}
+
+.sidebar1 ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.content {
+    float: left;
+    width: 480px;
+    background-color: white;
+}
+
+.content h2 {
+    font-size: 16px;
+    text-align: center;
+    border-bottom: #060 3px double;
+    margin: 10px;
+}
+
+.content p {
+    text-indent: 2em;
+    margin: 10px;
+}
+
+.footer {
+    clear: both;
+    background-color: #f90;
+    text-align: center;
+}
+
+body {
+    width: 620px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer p a {
+    color: #000;
+    text-decoration: none;
+}

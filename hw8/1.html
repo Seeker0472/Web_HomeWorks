@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">我的日历</title>
+</head>
+<style>
+    .wrapper {
+        /* margin-top: 25vh; */
+        background-color: #d5ffe179;
+        width: 50vw;
+        height: 50vh;
+        margin: auto;
+    }
+
+    .header {
+        background-color: #2ddc82;
+        margin: auto;
+        text-align: center;
+        height: 10vh;
+        line-height: 10vh;
+        color: white;
+        font-size: 20px;
+    }
+
+    .content {
+        color: #2ddc82;
+        text-align: center;
+        margin: 0.5vh auto;
+    }
+
+    body {
+        margin: 0;
+        padding: auto;
+        margin-top: 22vh;
+    }
+
+    .day {
+        font-size: 50px;
+
+    }
+
+    .item-warrper {
+        /* padding: calc(50vh - 40vh) 0; */
+        /* margin-top: 40px; */
+        position: relative;
+        top: calc((20vh - 40px) / 2);
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <h1 class="header">我的日历</h1>
+        <div class="item-warrper">
+            <div class="content day">29</div>
+            <div class="content">星期二</div>
+            <div class="content">2015.09</div>
+        </div>
+    </div>
+</body>
