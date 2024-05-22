@@ -29,6 +29,7 @@
 
 .header .menu li a {
     text-decoration: none;
+    color: #060;
 }
 
 .sidebar1 {
@@ -57,6 +58,11 @@
     color: black;
     text-decoration: none;
     line-height: 30px;
+}
+
+.sidebar1 ul li a.current {
+    /* display: none; */
+    color: #666;
 }
 
 .content {
